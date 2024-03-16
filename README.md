@@ -17,5 +17,5 @@
 <li>Node.js and npm installed on your machine.</li>
 
 
-
+<hr>
 <p>This project is made using Vite</p>
