@@ -1,7 +1,7 @@
 <h1>Pocket Notes</h1>
 
 <h2>Overview</h2>
-<p>Pocket Notes is a simple and intuitive note-taking application designed to streamline your note-taking process</p>
+<p>Pocket Notes is a simple and intuitive note-taking application designed to streamline your note-taking with category organization, and security feature process. Effortlessly capture ideas and manage notes for seamless productivity.</p>
 
 <h2>Usage</h2>
 <li>Install dependencies: npm install</li>
