@@ -4,8 +4,8 @@
 <p>Pocket Notes is a simple and intuitive note-taking application designed to streamline your note-taking process</p>
 
 <h2>Usage</h2>
-<ul>Install dependencies: npm install
-Run the application: npm start</ul>
+<li>Install dependencies: npm install</li>
+<li>Run the application: npm start</li>
   <p>Feel free to reach out for any further clarification or assistance.</p>
 
 <h2>Getting Started</h2>
