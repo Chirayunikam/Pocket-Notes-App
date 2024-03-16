@@ -1,0 +1,184 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.heading {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.groupWrapper {
+  margin: 30px 20px;
+}
+
+.groupItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 12px 20px;
+}
+
+.groupItem.selected {
+  background-color: #e6f2ff;
+  border-radius: 5px;
+}
+
+.groupCircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.groupName {
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #000;
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.groupName:hover {
+  transform: scale(1.05);
+}
+
+.groupContainer {
+  height: 600px;
+  padding: 5px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.plus {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #16008b;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 40px;
+  z-index: 9999;
+  border: transparent;
+}
+
+.groupContainer::-webkit-scrollbar-track {
+  background: #d9d9d9;
+  border-radius: 5px;
+}
+
+.groupContainer::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 5px;
+}
+
+.errorMessage {
+  position: fixed;
+  top: 10px;
+  right: 2%;
+  transform: translateX(-50%);
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  animation: shake 0.5s forwards;
+}
+
+@media (min-width: 769px) {
+  .plus {
+    left: 21%;
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d9d9d9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5px;
+}

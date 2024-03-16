@@ -1,0 +1,188 @@
+.noteContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+.noteHeader {
+  background-color: #001f8b;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 5px 0px 0 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  max-height: 75px;
+}
+
+.noteHeaderText {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.groupCircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+}
+
+.noteBodyContainer {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.noteBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notes {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  margin: 1rem;
+  width: 70vw;
+  text-align: justify;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.63px;
+  word-wrap: break-word;
+}
+
+.noteTimestamp {
+  color: #353535;
+  font-size: 12px;
+  text-align: right;
+}
+
+.noteInput {
+  background-color: #001f8b;
+  padding: 18px;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.noteInput textarea {
+  width: 100%;
+  height: 15vh;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  resize: none;
+  border-radius: 5px;
+  padding: 1rem 1rem;
+}
+
+.arrowIcon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .noteContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .noteHeader {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .backButton {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .noteHeaderText {
+    margin-left: 20px;
+  }
+
+  .noteBodyContainer {
+    flex-grow: 1;
+    overflow-y: auto;
+    width: 100%;
+  }
+
+  .noteBody {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .noteInput {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .inputWrapper {
+    width: 100%;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .noteInput textarea {
+    width: calc(100% - 10px);
+    min-height: 30px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    resize: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    position: relative;
+  }
+
+  .arrowIcon {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 769px) {
+  .backButton {
+    display: none;
+  }
+}
