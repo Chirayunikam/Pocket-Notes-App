@@ -16,4 +16,6 @@
 <h3>Prerequisites</h3>
 <li>Node.js and npm installed on your machine.</li>
 
-This project is made using Vite
+
+
+<p>This project is made using Vite</p>
