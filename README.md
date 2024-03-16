@@ -8,7 +8,7 @@
 <li>Install dependencies: npm install</li>
 <li>Run the application: npm start</li>
 </ol>
-  <p>Feel free to reach out for any further clarification or assistance.</p>
+  <p>Feel free to reach out me for any further assistance.</p>
 
 <h2>Getting Started</h2>
 <p>Follow these steps to set up and run the Notes Application on your local machine.</p>
