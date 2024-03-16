@@ -6,7 +6,7 @@
 <h2>Usage</h2>
 <ol>
 <li>Install dependencies: npm install</li>
-<li>Run the application: npm start</li>
+<li>Run the application: npm run dev</li>
 </ol>
   <p>Feel free to reach out me for any further assistance.</p>
 
@@ -15,3 +15,5 @@
 
 <h3>Prerequisites</h3>
 <li>Node.js and npm installed on your machine.</li>
+
+This project is made using Vite
