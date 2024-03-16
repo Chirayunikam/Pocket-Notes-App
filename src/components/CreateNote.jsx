@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import React from "react";
 import styles from "./CreateNote.module.css";
 import arrow1 from "../assets/arrow1.png";
 import arrow2 from "../assets/arrow2.png";
