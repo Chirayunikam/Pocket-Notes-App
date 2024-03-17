@@ -18,4 +18,4 @@
 
 
 <hr>
-<p>This project is made using Vite</p>
+<p>This project is made using React + Vite</p>
